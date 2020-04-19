@@ -35,11 +35,11 @@ html {
   position:absolute;
   bottom:0;
   font-family:'MinecraftiaRegular';
-  padding-left:1vh;
-  padding-bottom:0.5vh;
-  padding-right:1vh;
+  padding-left:1vw;
+  padding-bottom:1vh;
+  padding-right:1vw;
   color: white;
-  font-size:2vh;
+  font-size: 1vw;
 }
 
 .mcbutton {
