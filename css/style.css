@@ -1,0 +1,130 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.card {
+  overflow:hidden;
+}
+.cropimg{
+
+  width: 20vh;
+  height: 20vh;
+  overflow: hidden;
+  margin: 10px;
+  position: relative;
+}
+
+.bottomtext{
+  position:absolute;
+  bottom:0;
+  font-family:'MinecraftiaRegular';
+  padding-left:1vh;
+  padding-bottom:0.5vh;
+  padding-right:1vh;
+  color: white;
+  font-size:2vh;
+}
+
+.mcbutton {
+  height: 40px;
+  width: 50vh;
+  outline: 2px solid black;
+  position: relative;
+  margin: 0;
+  display: inline-block;
+  background-image: url('http://charliecowan.co.uk/mcbuttongenerator/button_center.png');
+  background-repeat: repeat;
+  padding: 0;
+  font-family: MinecraftiaRegular;
+  text-align: center;
+  color: white;
+  text-shadow: 3px 3px #4C4C4C;
+  border-bottom: 4px solid #565656;
+  border-right: 2px solid #565656;
+  border-left: 2px solid #AAA;
+  border-top: 2px solid #AAA;
+  box-sizing: border-box;
+  font-size:1.8vh;
+}
+
+.mcbutton span {
+  position: relative;
+  line-height: 40px;
+  bottom: 3px;
+}
+
+.mcbutton:hover {
+  border-bottom: 4px solid #59639A;
+  border-right: 2px solid #59639A;
+  border-left: 2px solid #BDC6FF;
+  border-top: 2px solid #BDC6FF;
+  background-image: url('http://charliecowan.co.uk/mcbuttongenerator/button_active_center.png');
+  color: #FFFFA0;
+}
+
+.iris {
+  background-image: url("../photos/overview.png");
+  background-repeat: no-repeat;
+  height:100vh;
+  background-size:cover;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 600px;
+  line-height: 0;
+  /*background-position:25% !important;*/
+  height: 100% !important;
+  background-size: 100%;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
